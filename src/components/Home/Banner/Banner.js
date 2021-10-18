@@ -12,12 +12,12 @@ const Banner = () => {
   <Carousel.Item>
     <img height="500px"
       className="d-block w-100 "
-    src={img1}
+    src={img3}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3 className="mb-2 text-warning">Cheast Exsersize</h3>
-      <p className="mb-5">Physical therapists work with patients to improve their movement and manage their pain</p>
+      <h1 className="text-info mb-3"><i class="fas fa-running text-warning"></i> WELCOME TO UNITED HEALTH CARE </h1>
+      <p className="mb-5 text-primary">Founded in 1999, the United Health Foundation is committed to developing and supporting innovative and evidence-based activities that help the health system ...</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -29,21 +29,21 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3 className="mb-2 text-warning">Hand Pulled</h3>
-      <p className="mb-5">Physical therapists help patients with injuries and chronic health </p>
+    <h1 className="text-info mb-3"> <i class="fas fa-running text-warning"></i>  WELCOME TO UNITED HEALTH CARE</h1>
+      <p className="mb-5 text-primary">Founded in 1999, the United Health Foundation is committed to developing and supporting innovative and evidence-based activities that help the health system ...</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
     height="500px"
       className="d-block w-100 "
-      src={img3}
+      src={img1}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3 className="mb-2 text-warning">Pulled HarmString</h3>
-      <p className="mb-5">Physical therapists work in a variety of settings, ranging from private clinics .</p>
+    <h1 className="text-info mb-3"> <i class="fas fa-running text-warning"></i> WELCOME TO UNITED HEALTH CARE </h1>
+      <p className="mb-5 text-primary">Founded in 1999, the United Health Foundation is committed to developing and supporting innovative and evidence-based activities that help the health system ...</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

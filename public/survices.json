@@ -1,0 +1,38 @@
+[
+    {
+      "name": "I-C-U",
+      "desc": "The Intensive Care Unit of United Hospital is staffed by highly trained doctors and nurses who specialize in caring for seriously ill patients. Patients may be transferred directly to the ICU from our emergency department or from a ward if they rapidly deteriorate or immediately after surgery if the surgery is very invasive and the patient is at high risk of complications.",
+      "id": 1,
+      "img": "https://cdn.apollohospitals.com/dev-apollohospitals/2021/04/icu.jpg"
+    },
+    {
+      "name": "Dentist",
+      "desc": "Dental anxiety is when you have an uneasiness or worry about an upcoming dental appointment. But if you’re panic-stricken or terrified at the thought of a dental cleaning or procedure, that could be a sign of dental phobia.Dental anxiety is when you have an uneasiness or worry about an upcoming dental appointment. But if you’re panic-stricken or terrified at the thought of a dental cleaning or proce",
+      "id": 2,
+      "img": "https://d1e00ek4ebabms.cloudfront.net/production/53b99ea6-733f-4b70-8688-0124fc7383b6.jpg"
+    },
+    {
+      "name": "EYE-Care",
+      "desc": "This is because it increases the quality of eye care in an individual’s life. Poor vision or blindness affects individuals and families in many ways. Good eye health or eye care is important to read, cook, watch drive and do many other tasks in our day to day life. Regular check-up of eyes is required as it helps in detecting vision problems or eye diseases if any. But taking eye care must be done right from a young age to maintain eye health. Some of the basic to .",
+      "id": 3,
+      "img": "https://www.sboptical.ca/wp-content/uploads/2019/11/eye-care-tips.jpg"
+    },
+    {
+      "name": "Mental-Care",
+      "desc": "The need for legislation which secures the rights of people with mental illness is a necessity for a nation like India. Instances such as the 2001 Erwadi mental home fire, in which chained patients were charred to death, are a reminder of our apathy towards the mentally disabled. The neglect of mental health is evident from a World Health ",
+      "id": 4,
+      "img": "https://d3hkrbfxf7jd3r.cloudfront.net/article/lead_image/3752354/oped3.jpg"
+    },
+    {
+      "name": "Skin-Specialisht",
+      "desc": "No cure is available to give relief from this problem, but a proper treatment can help in managing the skin and control the inflammatory response. Here we have listed eight essential oils  if used with carrier oils like coconut, olive, Amla might provide benefit from this chronic problem.",
+      "id": 5,
+      "img": "https://image.shutterstock.com/image-photo/friendly-dermatologist-examining-senior-womans-260nw-155298410.jpg"
+    },
+    {
+      "name": "PHYSIO Therapy",
+      "desc": "The Department of Orthopaedic Surgery has centers focused on Pediatric Orthopaedics, Hand and Upper Extremity, Musculoskeletal Tumors, Foot and Ankle, Joint Replacement and Adult Reconstructive Surgery, Sports Medicine, and Spine Health. All centers have active programs in translational and clinical outcomes ",
+      "id": 6,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZsb6yYN2gWp4ollNCsNayIZRoGHQKxIgWO-uQqfZ25qRp5hUW8KxHTEm92cEF5-cX4ks&usqp=CAU"
+    }
+  ]
