@@ -6,7 +6,6 @@ import Survices from './Survices/Survices';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
             <Survices></Survices>
         </div>
