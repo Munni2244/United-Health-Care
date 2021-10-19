@@ -5,10 +5,10 @@ const About = () => {
     return (
 <div className="container mt-5">
 <div className="row">
-            <div className="col-6">
-                <img width="500px" src={hos} alt="" />
+            <div className="col-12 col-lg-6 col-md-6">
+                <img width="500px" className="img-fluid" src={hos} alt="" />
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6 col-md-6">
                 <div>
                     <h1>The United Health Care</h1>
                     <p>Some members of Congress are considering significant changes to Medicare that could have a devastating effect on millions of Americans. Proponents call these changes government “negotiation,” but what they are actually proposing is anything but that. These politicians want to repeal a key provision of the Medicare Part D program that protects robust coverage and access to medicines for seniors and people with disabilities.

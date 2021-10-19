@@ -5,7 +5,7 @@ import './Survice.css'
 const Survice = (props) => {
     const {name, img}=props.survices;
     return (
-        <div  className="col-4 ">
+        <div className="col-12 col-md-6 col-lg-4  ">
 
         <div className="survice">
         <img width="400px" height="400px" src={img} alt="" />

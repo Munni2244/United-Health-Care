@@ -12,13 +12,15 @@ const Navbar = () => {
           <nav class="navbar navbar-light ">
   <div class="container-fluid">
     <Link to="home" class="navbar-brand"><img width="150px" height="50px" src={logo} alt="" /></Link>
-   <div className="navbbar">
+   <div className="navbbar navbar-expand-lg">
        <Link to="/home">Home</Link>
        <Link to="/survice">Survices</Link>
        <Link to="/contact">Contact</Link>
        <Link to="/about">About</Link>
        <Link to="/login">Register</Link>
-       <span className="mx-3 fw-bold fs-5">{user.displayName}</span>
+       
+       <span className="ms-3 fw-bold fs-5">{user.displayName}</span>
+       <img width="60px" className="rounded-circle" src={user.photoURL} alt="" />
        {user.email?  <button className="btn btn-danger" onClick={SignOut}> Log Out</button>: <Link to="/login"> Login </Link>}
       
    </div>

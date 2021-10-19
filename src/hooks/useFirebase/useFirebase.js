@@ -42,6 +42,7 @@ const HandleRegistation=(e)=>{
     .then(res=>{
         console.log(res.user);
         setError('')
+        GetUserName()
     }).catch(error=>{
         setError(error.message)}
     )
@@ -83,7 +84,7 @@ const HandleRegistation=(e)=>{
             displayName:name
         })
         .then(res=>{
-
+             
         })
     }
 
