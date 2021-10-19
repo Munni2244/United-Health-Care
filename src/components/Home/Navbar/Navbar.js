@@ -11,9 +11,10 @@ const Navbar = () => {
 <div className="container">
           <nav class="navbar navbar-light ">
   <div class="container-fluid">
-    <Link  class="navbar-brand"><img width="150px" height="50px" src={logo} alt="" /></Link>
+    <Link to="home" class="navbar-brand"><img width="150px" height="50px" src={logo} alt="" /></Link>
    <div className="navbbar">
        <Link to="/home">Home</Link>
+       <Link to="/survice">Survices</Link>
        <Link to="/contact">Contact</Link>
        <Link to="/about">About</Link>
        <Link to="/login">Register</Link>

@@ -4,7 +4,7 @@ const useSurvices=()=>{
     const [survices, setSurvices]= useState([]);
 
     useEffect(()=>{
-        fetch('/survices.json')
+        fetch(`https://raw.githubusercontent.com/Munni2244/api/main/survices.json`)
         .then(res=> res.json())
         .then (data => setSurvices(data))
     },[])

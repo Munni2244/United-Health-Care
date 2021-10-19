@@ -9,6 +9,9 @@ import AuthProvider from './components/Context/AuthProvider/AuthProvider';
 import Navbar from './components/Home/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import Survices from './components/Home/Survices/Survices';
+import PrivateRoute from './components/Context/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -27,8 +30,18 @@ function App() {
         <Home></Home>
         </Route>
         
+        
+        <Route path="/survice">
+        <Survices></Survices>
+        </Route>
+        
         <Route path="/contact">
         <Contact></Contact>
+        </Route>
+        
+        
+        <Route path="/about">
+       <About></About>
         </Route>
         
         
@@ -36,9 +49,9 @@ function App() {
         <Login></Login>
         </Route>
         
-        <Route path="/details/:id">
+        <PrivateRoute path="/details/:name">
       <Details></Details>
-        </Route>
+        </PrivateRoute>
         
         <Route path="*">
       <NotFound></NotFound>
