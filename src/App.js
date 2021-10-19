@@ -35,14 +35,14 @@ function App() {
         <Survices></Survices>
         </Route>
         
-        <Route path="/contact">
+        <PrivateRoute path="/contact">
         <Contact></Contact>
-        </Route>
+        </PrivateRoute>
         
         
-        <Route path="/about">
+        <PrivateRoute path="/about">
        <About></About>
-        </Route>
+        </PrivateRoute>
         
         
         <Route path="/login">

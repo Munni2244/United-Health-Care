@@ -13,9 +13,10 @@ const useFirebase=()=>{
     const [name, setName]=useState("");
     const [password, setPassword]=useState("");
     const [isLogin, setIsLogin]=useState(false);
+    const [isLoading, setIsLoading]=useState(true);
 
     const  SignWithGoogle=()=>{
-        
+        setIsLoading(true)
         signInWithPopup(auth,Googleprovider)
         .then(res=>{
             setUser(res.user)
@@ -23,6 +24,7 @@ const useFirebase=()=>{
         }).catch(error=>{
             setError(error.message)
         })
+        .finally(()=>setIsLoading(false))
     }
 //handle registration
 const HandleRegistation=(e)=>{
@@ -92,20 +94,23 @@ const HandleRegistation=(e)=>{
               setUser(user);
           
             } else {
-            
+            setUser({})
         
             }
+            setIsLoading(false)
           })
     },[])
 
     //sgin out
     const SignOut=()=>{
+       
         signOut(auth).then(() => {
             setUser({})
            setError("")
           }).catch((error) => {
             setError(error.msg)
-          });
+          })
+          .finally(()=> setIsLoading(false))
     }
     return{
         HandleName,
@@ -117,7 +122,8 @@ const HandleRegistation=(e)=>{
         isLogin,
         SignWithGoogle,
         error,
-        SignOut
+        SignOut,
+        isLoading
     }
 
 }

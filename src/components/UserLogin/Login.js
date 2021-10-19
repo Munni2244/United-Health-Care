@@ -7,8 +7,7 @@ import useAuth from '../../hooks/useAuth';
 const Login = () => {
 
     const { SignWithGoogle, HandleEmail, HandlePassword,HandleRegistation,error, toggleLogin, isLogin,HandleName}=useAuth();
-
-
+   
     return (
         < div className=" d-flex justify-content-center ">
 <div className="text-light w-50 login-form shadow">
@@ -31,7 +30,7 @@ const Login = () => {
     <input onChange={toggleLogin} type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Already Registered?</label>
   </div>
-  <Link to="/home"><button type="submit" className="btn btn-info loginBtn">Submit</button></Link> <br />
+  <button type="submit" className="btn btn-info loginBtn">Submit</button> <br />
   <Link to="/home"><input onClick={SignWithGoogle} className="inputBtn" type="button" value="Google Sign In" /></Link>
 
 </form>
