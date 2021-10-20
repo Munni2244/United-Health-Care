@@ -7,7 +7,7 @@ import useAuth from '../../../hooks/useAuth';
 const Navbar = () => {
     const {user, SignOut}=useAuth();
     return (
-<div className=""style={{backgroundColor: '#e3f2fd'}}>
+<div style={{backgroundColor: 'rgb(200, 217, 288)'}}>
 <div className="container">
           <nav class="navbar navbar-light ">
   <div class="container-fluid">
